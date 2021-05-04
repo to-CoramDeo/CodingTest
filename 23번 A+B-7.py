@@ -8,3 +8,10 @@ for i in range(T):
     A,B = map(int, input().split())
     i = i+1
     print("Case #%s: %s" %(i, A+B))
+
+# 아래의 결과는 틀렸다고 하는데 이유는 모름!! 백준씌 까다로우시넹 :)
+# T = int(input())
+# for i in range(T):
+#     A,B = map(int, input().split())
+#     i = i+1
+#     print("Case #",i,": ",A+B)

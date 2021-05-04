@@ -8,4 +8,6 @@ space = " "
 
 for i in range(N):
     i = i+1
-    print(" "*(N-i) + star*i) # 
+    print(space*(N-i) + star*i) 
+
+# 좋은 코드인지 잘 모르겠다. 정렬 칸을 정해주고 싶다.

@@ -8,4 +8,3 @@ star = "*"
 for i in range(N):
     i = i+1
     print(star*i)
-
