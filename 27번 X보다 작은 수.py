@@ -7,4 +7,4 @@ A = input().split()
 
 for i in range(N):
     if int(A[i]) < X:
-        print(int(A[i]), end=" ")
+        print(int(A[i]), end=" ") # end=" "를 이용하여 한 줄에 출력한다.
