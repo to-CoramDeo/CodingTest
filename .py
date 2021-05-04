@@ -1,0 +1,2 @@
+a="{}".format("*")
+print(a)
