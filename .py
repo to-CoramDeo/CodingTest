@@ -1,9 +1,9 @@
-# 변수 설정
-N, X = map(int, input().split()) # int()의 인자에 '리스트'는 올 수 없다.
-A = input().split()
-B = []
+N = 26 # N[1]
+print(N//10) # 몫: 2
+print(N%10) # 나머지: 6
+SUM = (N//10)+(N%10) # 몫 + 나머지: 8
+N = str(N%10) + str(SUM) # N[2]: 6 8
 
-for i in range(N):
-    if int(A[i]) < X:
-        B.append(int(A[i]))
-print(B)
+print(SUM) # 8
+print(N) # 14 -> 6 8 
+/
