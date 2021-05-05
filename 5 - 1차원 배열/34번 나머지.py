@@ -8,4 +8,4 @@ for i in range(10):
     List.append(N%42)
 
 List = set(List) # 중복된 자료 제거
-print(len(List))
+print(len(List)) # len(): 1) 문자열 2) 리스트 사용 가능

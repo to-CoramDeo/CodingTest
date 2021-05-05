@@ -6,6 +6,6 @@ A = int(input())
 B = int(input())
 C = int(input())
 
-ABC = list(str(A*B*C))
-for i in range(10):
-    print(ABC.count(str(i)))
+ABC = list(str(A*B*C)) # 숫자를 문자열로 바꾼 뒤, 문자열을 리스트로 바꾸어 준다.
+for i in range(10): # i는 0에서 9까지 반복
+    print(ABC.count(str(i))) # .count()는 인자 값의 개수 반환

@@ -10,10 +10,12 @@ score = list(map(int, input().split()))
 for i in range(N):
     if M < score[i]:
         M = score[i]
-print(M)
 
+NewScoreAverage = (sum(score)/M*100)/N # 고친 점수의 평균 = 고친 점수의 합 / 과목 수
+print(NewScoreAverage)
 
 # ⬇ JT 형님이랑 알고리즘 이야기를 나눔
 # average = (sum(score)/M*100)/N
 # print(average)
 # -> 수학 연산을 간결하게 작성하는 편인 것 같음 
+# -> sum()은 리스트에 사용할 수 있다.
