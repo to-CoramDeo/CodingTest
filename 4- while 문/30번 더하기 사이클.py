@@ -2,16 +2,16 @@
 # 입력: 첫째 줄에 N이 주어진다. N은 0보다 크거나 같고, 99보다 작거나 같은 정수
 # 출력: 첫째 줄에 N의 사이클 길이를 출력
 
-N = int(input()) # N[1] 입력받은 수
+N = int(input()) 
 origin = N
 count = 0
 
 while True:
-    TensDigit = N//10 # 2
-    UnitDigit = N%10 # 6
-    AddUnitandTensDigit = UnitDigit + TensDigit # 8
+    TensDigit = N//10
+    UnitDigit = N%10 
+    AddUnitandTensDigit = UnitDigit + TensDigit 
     N = int(str(UnitDigit) + str(AddUnitandTensDigit%10)) 
     count = count + 1
-    print(N, count)
     if N == origin:
         break
+print(count)
